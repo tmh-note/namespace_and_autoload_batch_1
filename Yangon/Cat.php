@@ -1,8 +1,10 @@
 <?php
 
+namespace Yangon;
+
 class Cat {
     public function __construct()
     {
-        echo 'Cat from main' . '<br>';
+        echo __CLASS__ . '<br>';
     }
 }
